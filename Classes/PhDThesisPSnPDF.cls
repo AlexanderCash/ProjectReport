@@ -829,6 +829,33 @@ wish to left align your text}
 % These macros are used to declare arguments needed for the
 % construction of the title page and other preamble.
 
+% Define a type for the TYPE of document for front page
+\newcommand{\@documenttitle}{}
+\newcommand{\documenttitle}[1]{\renewcommand{\@documenttitle}{#1}}
+
+% Define the academic year for the front page
+\newcommand{\@academicyear}{}
+\newcommand{\academicyear}[1]{\renewcommand{\@academicyear}{#1}}
+
+% Define supervisors for the front page
+\newcommand{\@mainsupervisor}{}
+\newcommand{\mainsupervisor}[1]{\renewcommand{\@mainsupervisor}{#1}}
+
+% 
+\newcommand{\@secondsupervisor}{}
+\newcommand{\secondsupervisor}[1]{\renewcommand{\@secondsupervisor}{#1}}
+
+% Define address of the department
+\newcommand{\@deptaddress}{}
+\newcommand{\deptaddress}[1]{\renewcommand{\@deptaddress}{#1}}
+
+% Author Text
+\newcommand{\authortext}{Student Name: }
+% Project Title Text
+\newcommand{\projecttitletext}{Project Title: }
+% Supervisors Text
+\newcommand{\supervisorstext}{Supervisors: }
+
 % Subtitle (optional)
 \newcommand{\@subtitle}{}
 \newcommand{\subtitle}[1]{\renewcommand{\@subtitle}{#1}}
@@ -918,7 +945,6 @@ wish to left align your text}
 \addtocounter{page}{1}
 }
 
-
 % ******************************** Title Page **********************************
 \renewcommand{\maketitle}{
 
@@ -930,35 +956,52 @@ wish to left align your text}
 
 \begin{singlespace}
 \begin{center}
-% Title
-{\Huge \bfseries{\@title} \par}
-\ifthenelse{\equal{\@subtitle}{}}{
-% subtitle is not defined
-}{
-\vspace*{1em}
-\centering \Large {\@subtitle}
-} % subtitle is defined
-
-\vspace{.25\PHD@titlepagespacing}
 
 % Crest
 {\@crest \par}
+\vspace*{2ex}
+% Dept
+{\Large \@dept \par}
+\vspace*{2ex}
 \vspace{.2\PHD@titlepagespacing}
+
+% Document Title and academic year
+{\Huge \bfseries{\@documenttitle} \par}
+\vspace{.1\PHD@titlepagespacing}
+{\Huge \bfseries{\@academicyear} \par}
+
+% Left-aligned
+% Student Name: @author
+% Project Title: @project_title
+% Supervisors: @main_supervisor, @second_supervisor
+
+
+
+
+%centred
+% Dept of electronics
+% University of York
+% Heslington
+% York
+% YO105DD
+
+
+
+
 
 % Author
 {\Large \bfseries{\@author} \par}
 \vspace*{1em}
 
-% Department and University
-{\large \@dept \par}
-\vspace*{1ex}
-{\large \@university \par}
-\vspace{.2\PHD@titlepagespacing}
+%% Department and University
 
-% Submission Text
-{\large \submissiontext \par}
-\vspace*{1ex}
-{\large \textit {\@degree} \par}
+%{\large \@university \par}
+%\vspace{.2\PHD@titlepagespacing}
+
+%% Submission Text
+%{\large \submissiontext \par}
+%\vspace*{1ex}
+%{\large \textit {\@degree} \par}
 
 
 \end{center}
@@ -982,6 +1025,70 @@ wish to left align your text}
 \end{singlespace}
 }
 
+
+%% ******************************** Title Page **********************************
+%\renewcommand{\maketitle}{
+%
+%% To compute the free vertical space in Title page
+%\computeTitlePageSpacing
+%
+%% Fix for issue #24 https://github.com/kks32/phd-thesis-template/issues/24
+%\renewcommand*{\thepage}{i}
+%
+%\begin{singlespace}
+%\begin{center}
+%% Title
+%{\Huge \bfseries{\@title} \par}
+%\ifthenelse{\equal{\@subtitle}{}}{
+%% subtitle is not defined
+%}{
+%\vspace*{1em}
+%\centering \Large {\@subtitle}
+%} % subtitle is defined
+%
+%\vspace{.25\PHD@titlepagespacing}
+%
+%% Crest
+%{\@crest \par}
+%\vspace{.2\PHD@titlepagespacing}
+%
+%% Author
+%{\Large \bfseries{\@author} \par}
+%\vspace*{1em}
+%
+%% Department and University
+%{\large \@dept \par}
+%\vspace*{1ex}
+%{\large \@university \par}
+%\vspace{.2\PHD@titlepagespacing}
+%
+%% Submission Text
+%{\large \submissiontext \par}
+%\vspace*{1ex}
+%{\large \textit {\@degree} \par}
+%
+%
+%\end{center}
+%\vfill
+%\large
+%\begin{minipage}[c]{\textwidth}
+%\ifthenelse{\equal{\@college}{}}{
+%% college is not defined
+%\centering
+%\@degreedate
+%}{
+%% college is defined
+%\begin{minipage}{0.45\textwidth}
+%\flushleft\@college
+%\end{minipage}
+%\begin{minipage}{0.45\textwidth}
+%\flushright \@degreedate
+%\end{minipage}
+%} % college is defined
+%\end{minipage}
+%\end{singlespace}
+%}
+%
 
 % ********************************* Dedication *********************************
 % The dedication environment makes sure the dedication gets its
