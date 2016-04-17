@@ -1,5 +1,7 @@
 Report Plan
 
+Cover
+Title
 Abstract
 Acknowledgements
 Contents
@@ -16,11 +18,25 @@ Chapters
 	Lit Review
 	Part 1 - Route planning
 	Part 2 - Autopilot Control
+	Future work
+	Conclusion
+
 	
 Appendices
 Bibliography
 
 
+=============================
+Title page format
 
+"
+THE COMPRESSION OF EAR ACOUSTIC DATA
+Joe F Bloggs
+Alcuin College
+University of York
+May 2016
+4th Year Project Report for degree of MEng
+in Electronic Engineering
+"
 
-
+ 

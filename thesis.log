@@ -1,16 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.16)  17 APR 2016 17:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.16)  17 APR 2016 21:20
 entering extended mode
 **C:/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis.tex
 (C:/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 (Classes/PhDThesisPSnPDF.cls
-
-LaTeX Warning: You have requested document class `Classes/PhDThesisPSnPDF',
-               but the document class provides `PhDThesisPSnPDF'.
-
-Document Class: PhDThesisPSnPDF 2014/10/08 A PhD thesis class file by Krishna K
-umar (v1.4.2)
+Document Class: Classes/PhDThesisPSnPDF 2014/10/08 A PhD thesis class file by K
+rishna Kumar (v1.4.2)
 https://github.com/kks32/phd-thesis-template/
 PhDThesisPSnPDF: Font size is set as 12pt
 ("C:\Users\cex\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls"
@@ -1331,7 +1327,7 @@ Package: translator 2010/06/12 ver 1.10
 
 ("C:\Users\cex\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\base\translat
 or\translator-language-mappings.tex")))) (thesis-info.tex) (thesis.aux
-(Dedication/dedication.aux) (Declaration/declaration.aux)
+(ActualTitle/ActualTitle.aux) (Dedication/dedication.aux)
 (Acknowledgement/acknowledgement.aux) (Abstract/abstract.aux)
 (Chapter1/chapter1.aux) (Chapter2/chapter2.aux) (Chapter3/chapter3.aux)
 (Appendix1/appendix1.aux) (Appendix2/appendix2.aux))
@@ -1523,7 +1519,7 @@ Package microtype Info: Loading generic settings for font family
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 113.
 \PHD@crest=\box53
- <Figs/UniversityLogo.png, id=86, 1654.68187pt x 636.12656pt>
+ <Figs/UniversityLogo.png, id=90, 1654.68187pt x 636.12656pt>
 File: Figs/UniversityLogo.png Graphic file (type png)
 
 <use Figs/UniversityLogo.png>
@@ -1535,6 +1531,12 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 \PHD@dept=\box55
 \PHD@submission=\box56
 \PHD@collegedate=\box57
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 \PHD@titlepagespacing=\skip75
 File: Figs/UniversityLogo.png Graphic file (type png)
  <use Figs/UniversityLogo.png>
@@ -1545,63 +1547,63 @@ Package pdftex.def Info: Figs/UniversityLogo.png used on input line 113.
 
 {C:/Users/cex/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figs/Univer
 sityLogo.png>]
+\openout2 = `ActualTitle/ActualTitle.aux'.
+
+
+(ActualTitle/ActualTitle.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 6.
+) [2
+
+
+]
 \openout2 = `Dedication/dedication.aux'.
 
-
-(Dedication/dedication.tex [2
-
+ (Dedication/dedication.tex) [3
 
 
-]) [3]
-\openout2 = `Declaration/declaration.aux'.
 
- (Declaration/declaration.tex [4
+]
+\openout2 = `Acknowledgement/acknowledgement.aux'.
+
+
+(Acknowledgement/acknowledgement.tex [4
 
 
 
 ]) [5
 
 ]
-\openout2 = `Acknowledgement/acknowledgement.aux'.
-
-
-(Acknowledgement/acknowledgement.tex [6
-
-
-
-]) [7
-
-]
 \openout2 = `Abstract/abstract.aux'.
 
- (Abstract/abstract.tex [8
+ (Abstract/abstract.tex [6
 
 
 
 ])
-[9
+[7
 
-] [10
+] [8
 
 
 ] (thesis.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 22.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 23.
 )
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [11
+ [9
 
-] [12
+] [10
 
 ] (thesis.lof)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [13] [14
+ [11] [12
 
 ] (thesis.lot)
 \tf@lot=\write8
@@ -1609,30 +1611,31 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
 
 
 No file thesis.nls.
-[15] [16
+[13] [14
 
 ]
 \openout2 = `Chapter1/chapter1.aux'.
 
  (Chapter1/chapter1.tex
 Chapter 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-[1
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 28.
+<Chapter1/Figs/Raster/SimpleLawnmower.png, id=190, 586.19pt x 538.01pt>
+File: Chapter1/Figs/Raster/SimpleLawnmower.png Graphic file (type png)
+
+<use Chapter1/Figs/Raster/SimpleLawnmower.png>
+Package pdftex.def Info: Chapter1/Figs/Raster/SimpleLawnmower.png used on input
+ line 40.
+(pdftex.def)             Requested size: 437.46112pt x 401.50342pt.
+) [1
 
 
-] [2]) [3]
+] [2 <./Chapter1/Figs/Raster/SimpleLawnmower.png>]
 \openout2 = `Chapter2/chapter2.aux'.
 
- (Chapter2/chapter2.tex [4
-
-
-
-]
+ (Chapter2/chapter2.tex
 Chapter 2.
-<Chapter2/Figs/Raster/minion.png, id=227, 636.6987pt x 582.4962pt>
+<Chapter2/Figs/Raster/minion.png, id=203, 636.6987pt x 582.4962pt>
 File: Chapter2/Figs/Raster/minion.png Graphic file (type png)
 
 <use Chapter2/Figs/Raster/minion.png>
@@ -1644,15 +1647,21 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 45.
 ("C:\Users\cex\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-[5] [6 <./Chapter2/Figs/Raster/minion.png>] [7]
+[3
+
+
+
+] [4 <./Chapter2/Figs/Raster/minion.png>] [5]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
- [8
+ [6
 
 ]
-<Chapter2/Figs/Raster/TomandJerry.png, id=259, 324.33366pt x 216.81pt>
+<Chapter2/Figs/Raster/TomandJerry.png, id=237, 324.33366pt x 216.81pt>
 File: Chapter2/Figs/Raster/TomandJerry.png Graphic file (type png)
 
 <use Chapter2/Figs/Raster/TomandJerry.png>
@@ -1660,7 +1669,7 @@ Package pdftex.def Info: Chapter2/Figs/Raster/TomandJerry.png used on input lin
 e 83.
 (pdftex.def)             Requested size: 131.23967pt x 87.73148pt.
 
-<Chapter2/Figs/Raster/WallE.png, id=260, 341.9605pt x 515.58476pt>
+<Chapter2/Figs/Raster/WallE.png, id=238, 341.9605pt x 515.58476pt>
 File: Chapter2/Figs/Raster/WallE.png Graphic file (type png)
 
 <use Chapter2/Figs/Raster/WallE.png>
@@ -1672,38 +1681,36 @@ Package pdftex.def Info: Chapter2/Figs/Raster/minion.png used on input line 93.
 
 (pdftex.def)             Requested size: 131.23967pt x 120.06133pt.
 
-[9
+[7
 
  <./Chapter2/Figs/Raster/TomandJerry.png> <./Chapter2/Figs/Raster/WallE.png>])
 \openout2 = `Chapter3/chapter3.aux'.
 
- (Chapter3/chapter3.tex [10
+ (Chapter3/chapter3.tex [8
 
 
 
 
 ]
 Chapter 3.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 15.
-[11]) [12] [13] [14
+[9]) [10] [11] [12
 
 
-] (thesis.bbl) [15
+] (thesis.bbl) [13
 
 ]
 \openout2 = `Appendix1/appendix1.aux'.
 
- (Appendix1/appendix1.tex [16
+ (Appendix1/appendix1.tex [14
 
 
 ]
 Appendix A.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-[17] [18]
+[15] [16]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 65.
 
 ("C:\Users\cex\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
@@ -1714,54 +1721,50 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[19]) [20]
+[17]) [18]
 \openout2 = `Appendix2/appendix2.aux'.
 
  (Appendix2/appendix2.tex
 Appendix B.
-) [21
+) [19
 
 
 
-] [22
+] [20
 
 
-] (thesis.ind [23
+] (thesis.ind [21
 
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
- (thesis.aux (Dedication/dedication.aux)
-(Declaration/declaration.aux) (Acknowledgement/acknowledgement.aux)
+ (thesis.aux (ActualTitle/ActualTitle.aux)
+(Dedication/dedication.aux) (Acknowledgement/acknowledgement.aux)
 (Abstract/abstract.aux) (Chapter1/chapter1.aux) (Chapter2/chapter2.aux)
 (Chapter3/chapter3.aux) (Appendix1/appendix1.aux) (Appendix2/appendix2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7694D8BF5E61A3BBC9D91EF682795322;4093.
+(rerunfilecheck)             Checksum: BE30491DE5B2ACC69A88D26F1D548021;4126.
  ) 
 Here is how much of TeX's memory you used:
- 25524 strings out of 493634
- 451951 string characters out of 3136055
- 510450 words of memory out of 3000000
- 28175 multiletter control sequences out of 15000+200000
- 91210 words of font info for 252 fonts, out of 3000000 for 9000
+ 25549 strings out of 493634
+ 452970 string characters out of 3136055
+ 510751 words of memory out of 3000000
+ 28232 multiletter control sequences out of 15000+200000
+ 94694 words of font info for 247 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  55i,15n,92p,10440b,944s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\cex\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
 tt1200.pk>{C:/Users/cex/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontn
-ame/8r.enc}<C:/Users/cex/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmex10.pfb><C:/Users/cex/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Users/cex/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cex/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/cex/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/cex/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/cex/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (39 pages, 525371 bytes).
+ame/8r.enc}<C:/Users/cex/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/time
+s/utmb8a.pfb><C:/Users/cex/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmr8a.pfb><C:/Users/cex/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
+times/utmri8a.pfb>
+Output written on thesis.pdf (35 pages, 492128 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 134 named destinations out of 1000 (max. 500000)
- 58045 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 469 PDF objects out of 1000 (max. 8388607)
+ 130 named destinations out of 1000 (max. 500000)
+ 66762 words of extra memory for PDF output out of 74296 (max. 10000000)
 

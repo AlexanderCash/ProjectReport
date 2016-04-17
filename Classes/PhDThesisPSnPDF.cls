@@ -15,7 +15,7 @@
 \newcommand\fileversion{1.4.2}
 \newcommand\filedate{2014/10/08}
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{PhDThesisPSnPDF}[\filedate\space A PhD thesis class file
+\ProvidesClass{Classes/PhDThesisPSnPDF}[\filedate\space A PhD thesis class file
  by Krishna Kumar (v\fileversion)]
 \typeout{https://github.com/kks32/phd-thesis-template/}
 
@@ -887,7 +887,7 @@ wish to left align your text}
 \newcommand{\crest}[1]{\renewcommand{\@crest}{#1}}
 
 % Submission Text
-\newcommand{\submissiontext}{This dissertation is submitted for the degree of }
+\newcommand{\submissiontext}{4th Year Project Report for degree of }
 
 
 % keywords (These keywords will appear in the PDF meta-information
@@ -1004,6 +1004,7 @@ wish to left align your text}
 {\normalsize \@dept \par}
 {\normalsize \@deptaddress \par}
 
+
 \end{center}
 \end{singlespace}
 }
@@ -1072,6 +1073,26 @@ wish to left align your text}
 %\end{singlespace}
 %}
 %
+
+%********************************* Actual Title *********************************
+% The actual title page, after the cover page
+%
+
+\newenvironment{actualtitle}
+{
+\newpage
+\setsinglecolumn
+\thispagestyle{empty}
+\centering
+}{
+{\LARGE \bfseries{\@title}\par}
+{\Large \@author \par}
+{\Large \@college \par}
+{\Large \@university \par}
+{\Large \@degreedate \par}
+{\Large \submissiontext \par}
+{\Large \@degree \par}
+}
 
 % ********************************* Dedication *********************************
 % The dedication environment makes sure the dedication gets its
