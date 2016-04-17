@@ -971,7 +971,7 @@ wish to left align your text}
 {\Huge \bfseries{\@documenttitle} \par}
 \vspace{.1\PHD@titlepagespacing}
 {\Huge \bfseries{\@academicyear} \par}
-\vspace{.1\PHD@titlepagespacing}
+\vspace{.07\PHD@titlepagespacing}
 \end{center}
 
 \begin{flushleft}

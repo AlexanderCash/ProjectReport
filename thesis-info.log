@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.16)  17 APR 2016 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.16)  17 APR 2016 17:45
 entering extended mode
 **C:/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis-info.tex
 (C:/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis-info.tex
@@ -170,7 +170,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no k in font nullfont!
 ! Undefined control sequence.
 l.21 \crest
-           {\includegraphics[width=0.5\textwidth]{UniversityLogo}}
+           {\includegraphics[width=0.65\textwidth]{UniversityLogo}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -179,7 +179,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.21 \crest{\includegraphics
-                            [width=0.5\textwidth]{UniversityLogo}}
+                            [width=0.65\textwidth]{UniversityLogo}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -195,12 +195,13 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.21 \crest{\includegraphics[width=0.5\textwidth]
-                                                 {UniversityLogo}}
+l.21 \crest{\includegraphics[width=0.65\textwidth]
+                                                  {UniversityLogo}}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -208,8 +209,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.21 \crest{\includegraphics[width=0.5\textwidth]
-                                                 {UniversityLogo}}
+l.21 \crest{\includegraphics[width=0.65\textwidth]
+                                                  {UniversityLogo}}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -239,7 +240,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 20--22
 
 ! Undefined control sequence.
 l.23 \deptaddress
-                 {Heslington}
+                 {Heslington \\ York \\ YO10 5DD}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -254,7 +255,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.23 \deptaddress{H
-                   eslington}
+                   eslington \\ York \\ YO10 5DD}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -268,6 +269,17 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no D in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 23--25
 [] 
@@ -522,5 +534,5 @@ Here is how much of TeX's memory you used:
  3491 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 5i,0n,4p,165b,16s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 5i,0n,4p,165b,20s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

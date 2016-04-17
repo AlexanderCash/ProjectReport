@@ -1,0 +1,347 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "thesis.tex",
+			"settings":
+			{
+				"buffer_size": 6827,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Classes/PhDThesisPSnPDF.cls",
+			"settings":
+			{
+				"buffer_size": 40515,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 16373,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 49 files for \"delete_temp_files\"\n\nC:\\Users\\cex\\AppData\\Roaming\\Sublime Text 2\\Packages\\LaTeXTools\\Default (Windows).sublime-keymap:\n  316  		\"context\":  [\n  317  			{\"key\": \"selector\", \"operator\": \"equal\", \"operand\": \"text.tex.latex\"}],\n  318: 		\"command\": \"delete_temp_files\"},\n  319  \n  320  \n\n1 match in 1 file\n\n\nSearching 48 files for \"delete_temp_files\"\n\n0 matches across 0 files\n\n\nSearching 49 files for \"delete_temp_files\"\n\nC:\\Users\\cex\\AppData\\Roaming\\Sublime Text 2\\Packages\\LaTeXTools\\Default (Windows).sublime-keymap:\n  316  		\"context\":  [\n  317  			{\"key\": \"selector\", \"operator\": \"equal\", \"operand\": \"text.tex.latex\"}],\n  318: 		\"command\": \"delete_temp_files\"},\n  319  \n  320  \n\n1 match in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 721,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"delete",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"latextools",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Classes/PhDThesisPSnPDF.cls",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis-info.tex",
+		"/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter1/chapter1.tex",
+		"/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap",
+		"/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis.aux",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis.pdf",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Figs/University_Crest.pdf",
+		"/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Z/w2k/4TH YEAR/Final Project/AFinal Report/finalreport0/ProjectReport/thesis.pdf",
+		"/Z/w2k/4TH YEAR/Final Project/AFinal Report/finalreport0/ProjectReport/thesis-info.tex",
+		"/Z/w2k/4TH YEAR/Final Project/AFinal Report/finalreport0/ProjectReport/thesis.tex",
+		"/C/Users/cex/Documents/gamejam/gamejam2016/js/engine.js",
+		"/C/px4/Firmware/Tools/check_cmake.sh",
+		"/C/Users/cex/Documents/WORK/4TH",
+		"/C/Users/cex/Documents/WORK/4TH YEAR/Systems Programming for ARM/Repo/DocetOS/DocetOS_mutex/YEAR/Systems",
+		"/C/Users/cex/Documents/WORK/4TH YEAR/Systems Programming for ARM/Repo/DocetOS/DocetOS_mutex/Programming",
+		"/C/Users/cex/Documents/WORK/4TH YEAR/Systems Programming for ARM/Repo/DocetOS/DocetOS_mutex/for",
+		"/C/Users/cex/Documents/WORK/4TH YEAR/Systems Programming for ARM/Repo/DocetOS/DocetOS_mutex/ARM/Repo/DocetOS/DocetOS_mutex/fixedPriority.c",
+		"/C/Users/cex/Documents/WORK/4TH YEAR/Systems Programming for ARM/TODO list.txt",
+		"/C/Users/cex/Documents/WORK/4TH YEAR/Systems Programming for ARM/Repo/DocetOS/DocetOS_mutex/ARM/Repo/DocetOS/DocetOS_mutex/main.c",
+		"/C/Users/cex/Documents/WORK/4TH YEAR/Systems Programming for ARM/TODO list",
+		"/C/Users/cex/Documents/WORK/4TH YEAR/Systems Programming for ARM/Repo/.hgignore"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"delete_temp_files",
+			"backspace",
+			"PhDThesisPSnPDF",
+			"submissiontext",
+			"/",
+			"title",
+			"backspace"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "thesis.tex",
+					"settings":
+					{
+						"buffer_size": 6827,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3458,
+								3458
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1109.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Classes/PhDThesisPSnPDF.cls",
+					"settings":
+					{
+						"buffer_size": 40515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1777,
+								1777
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/TeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap",
+					"settings":
+					{
+						"buffer_size": 16373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15616,
+								15633
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5197.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 721,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										268,
+										285
+									],
+									[
+										665,
+										682
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								501,
+								501
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 3,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 154.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true
+}
