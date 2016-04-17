@@ -855,6 +855,8 @@ wish to left align your text}
 \newcommand{\projecttitletext}{Project Title: }
 % Supervisors Text
 \newcommand{\supervisorstext}{Supervisors: }
+% Separate supervisors with 'and'
+\newcommand{\supervisorsandtext}{and}
 
 % Subtitle (optional)
 \newcommand{\@subtitle}{}
@@ -963,65 +965,46 @@ wish to left align your text}
 % Dept
 {\Large \@dept \par}
 \vspace*{2ex}
-\vspace{.2\PHD@titlepagespacing}
+\vspace{.1\PHD@titlepagespacing}
 
 % Document Title and academic year
 {\Huge \bfseries{\@documenttitle} \par}
 \vspace{.1\PHD@titlepagespacing}
 {\Huge \bfseries{\@academicyear} \par}
+\vspace{.1\PHD@titlepagespacing}
+\end{center}
 
+\begin{flushleft}
 % Left-aligned
 % Student Name: @author
 % Project Title: @project_title
 % Supervisors: @main_supervisor, @second_supervisor
 
-
-
-
-%centred
+{\Large \bfseries{\authortext}}
+{\Large \bfseries{\@author} \par}
+\vspace*{2em}
+{\Large \bfseries{\projecttitletext}}
+{\Large \bfseries{\@title} \par}
+\vspace*{2em}
+{\Large \bfseries{\supervisorstext}}
+{\Large \bfseries{\@mainsupervisor}}
+{\Large \bfseries{\supervisorsandtext}}
+{\Large \bfseries{\@secondsupervisor} \par}
+\vspace*{2em}
+\end{flushleft}
+\vspace{.2\PHD@titlepagespacing}
+% Return to centred
+\begin{center}
 % Dept of electronics
 % University of York
 % Heslington
 % York
 % YO105DD
-
-
-
-
-
-% Author
-{\Large \bfseries{\@author} \par}
-\vspace*{1em}
-
-%% Department and University
-
-%{\large \@university \par}
-%\vspace{.2\PHD@titlepagespacing}
-
-%% Submission Text
-%{\large \submissiontext \par}
-%\vspace*{1ex}
-%{\large \textit {\@degree} \par}
-
+{\normalsize \@university \par}
+{\normalsize \@dept \par}
+{\normalsize \@deptaddress \par}
 
 \end{center}
-\vfill
-\large
-\begin{minipage}[c]{\textwidth}
-\ifthenelse{\equal{\@college}{}}{
-% college is not defined
-\centering
-\@degreedate
-}{
-% college is defined
-\begin{minipage}{0.45\textwidth}
-\flushleft\@college
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
-\flushright \@degreedate
-\end{minipage}
-} % college is defined
-\end{minipage}
 \end{singlespace}
 }
 
