@@ -11,43 +11,45 @@
 			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 6827,
+				"buffer_size": 6893,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Classes/PhDThesisPSnPDF.cls",
+			"file": "Chapter1/chapter1.tex",
 			"settings":
 			{
-				"buffer_size": 40515,
+				"buffer_size": 2193,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap",
+			"file": "ReportPlan.txt",
 			"settings":
 			{
-				"buffer_size": 16373,
-				"line_ending": "Unix"
+				"buffer_size": 571,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Searching 49 files for \"delete_temp_files\"\n\nC:\\Users\\cex\\AppData\\Roaming\\Sublime Text 2\\Packages\\LaTeXTools\\Default (Windows).sublime-keymap:\n  316  		\"context\":  [\n  317  			{\"key\": \"selector\", \"operator\": \"equal\", \"operand\": \"text.tex.latex\"}],\n  318: 		\"command\": \"delete_temp_files\"},\n  319  \n  320  \n\n1 match in 1 file\n\n\nSearching 48 files for \"delete_temp_files\"\n\n0 matches across 0 files\n\n\nSearching 49 files for \"delete_temp_files\"\n\nC:\\Users\\cex\\AppData\\Roaming\\Sublime Text 2\\Packages\\LaTeXTools\\Default (Windows).sublime-keymap:\n  316  		\"context\":  [\n  317  			{\"key\": \"selector\", \"operator\": \"equal\", \"operand\": \"text.tex.latex\"}],\n  318: 		\"command\": \"delete_temp_files\"},\n  319  \n  320  \n\n1 match in 1 file\n",
+			"file": "Chapter2/chapter2.tex",
 			"settings":
 			{
-				"buffer_size": 721,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
+				"buffer_size": 1182,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"delete te",
+				"LaTexTools: Delete temporary files"
+			],
 			[
 				"delete",
 				"LaTexTools: Delete temporary files"
@@ -78,13 +80,24 @@
 	},
 	"file_history":
 	[
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis.toc",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Dedication/dedication.tex",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Classes/PhDThesisPSnPDF.cls",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis-info.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/MarkScheme.txt",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter2/chapter2.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/ActualTitle/ActualTitle.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter1/chapter1.aux",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter3/chapter3.aux",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter3/chapter3.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/README.md",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/FinalReportProject.sublime-project",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Acknowledgement/acknowledgement.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis.tex",
+		"/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap",
 		"/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis.tex",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter1/chapter1.tex",
-		"/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap",
 		"/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis.aux",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis.pdf",
@@ -111,7 +124,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"",
@@ -124,6 +137,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"aux",
 			"delete_temp_files",
 			"backspace",
 			"PhDThesisPSnPDF",
@@ -148,7 +162,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -156,15 +170,15 @@
 					"file": "thesis.tex",
 					"settings":
 					{
-						"buffer_size": 6827,
+						"buffer_size": 6893,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3458,
-								3458
+								5019,
+								5019
 							]
 						],
 						"settings":
@@ -172,32 +186,30 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1109.0,
+						"translation.y": 2052.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Classes/PhDThesisPSnPDF.cls",
+					"file": "Chapter1/chapter1.tex",
 					"settings":
 					{
-						"buffer_size": 40515,
+						"buffer_size": 2193,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1777,
-								1777
+								744,
+								641
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeX/TeX.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -207,74 +219,54 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap",
+					"file": "ReportPlan.txt",
 					"settings":
 					{
-						"buffer_size": 16373,
+						"buffer_size": 571,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15616,
-								15633
+								24,
+								24
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5197.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "Chapter2/chapter2.tex",
 					"settings":
 					{
-						"buffer_size": 721,
+						"buffer_size": 1182,
 						"regions":
 						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										268,
-										285
-									],
-									[
-										665,
-										682
-									]
-								],
-								"scope": ""
-							}
 						},
 						"selection":
 						[
 							[
-								501,
-								501
+								1182,
+								1182
 							]
 						],
 						"settings":
 						{
-							"detect_indentation": false,
-							"output_tag": 3,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 288.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -288,7 +280,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"layout":
 	{
@@ -342,6 +334,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 206.0,
+	"side_bar_width": 271.0,
 	"status_bar_visible": true
 }

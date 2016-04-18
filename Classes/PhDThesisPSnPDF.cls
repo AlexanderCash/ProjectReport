@@ -1085,11 +1085,15 @@ wish to left align your text}
 \thispagestyle{empty}
 \centering
 }{
-{\LARGE \bfseries{\@title}\par}
+{\LARGE \bfseries{\MakeUppercase{\@title}}\par}
+\vspace*{0.2\textheight}
 {\Large \@author \par}
+\vspace*{0.1\textheight}
 {\Large \@college \par}
 {\Large \@university \par}
+\vspace*{0.1\textheight}
 {\Large \@degreedate \par}
+\vspace*{0.1\textheight}
 {\Large \submissiontext \par}
 {\Large \@degree \par}
 }

@@ -12,10 +12,8 @@ Constants/Symbols
 Dedication/Shoutouts
 
 Chapters
-	Introduction
-	Motivations
-	Objectives
-	Lit Review
+	Introduction; Motivations + objectives
+	Lit Review; Dubin's paths + path following in wind
 	Part 1 - Route planning
 	Part 2 - Autopilot Control
 	Future work
