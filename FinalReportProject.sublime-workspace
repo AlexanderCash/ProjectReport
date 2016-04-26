@@ -11,31 +11,7 @@
 			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 6893,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Chapter1/chapter1.tex",
-			"settings":
-			{
-				"buffer_size": 2193,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "ReportPlan.txt",
-			"settings":
-			{
-				"buffer_size": 571,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Chapter2/chapter2.tex",
-			"settings":
-			{
-				"buffer_size": 1182,
+				"buffer_size": 6889,
 				"line_ending": "Windows"
 			}
 		}
@@ -80,24 +56,39 @@
 	},
 	"file_history":
 	[
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter1/chapter1.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter5/chapter5.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/ReportPlan.txt",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter4/chapter4.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter6/chapter6.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter7/chapter7.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter2/chapter2.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/MarkScheme.txt",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter3/chapter3.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Appendix2/appendix2.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter2/Figs/Raster/WallE.png",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter2/Figs/Raster/TomandJerry.png",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter2/Figs/Raster/minion.png",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Appendix1/appendix1.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Preamble/preamble.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis.tex",
+		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Classes/PhDThesisPSnPDF.cls",
+		"/C/Users/cex/Documents/WORK/Project/Code/ardupilot/config.mk",
+		"/C/Users/cex/Documents/WORK/Project/Code/LatestPlane/ardupilot/.gitignore",
+		"/C/Users/cex/.ssh/id_rsa",
+		"/C/Users/cex/Documents/WORK/Project/Code/OfficialArdupilot/ardupilot/config.mk",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis.toc",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Dedication/dedication.tex",
-		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Classes/PhDThesisPSnPDF.cls",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis-info.tex",
-		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/MarkScheme.txt",
-		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter2/chapter2.tex",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/ActualTitle/ActualTitle.tex",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter1/chapter1.aux",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter3/chapter3.aux",
-		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter3/chapter3.tex",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/README.md",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/FinalReportProject.sublime-project",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Acknowledgement/acknowledgement.tex",
-		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis.tex",
 		"/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap",
 		"/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/Chapter1/chapter1.tex",
 		"/C/Users/cex/AppData/Roaming/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis.aux",
 		"/C/Users/cex/Documents/WORK/Project/Report/ProjectReport/thesis.pdf",
@@ -124,7 +115,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 			"",
@@ -137,6 +128,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"custombib",
 			"aux",
 			"delete_temp_files",
 			"backspace",
@@ -162,7 +154,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -170,15 +162,15 @@
 					"file": "thesis.tex",
 					"settings":
 					{
-						"buffer_size": 6893,
+						"buffer_size": 6889,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5019,
-								5019
+								5389,
+								5389
 							]
 						],
 						"settings":
@@ -186,87 +178,7 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2052.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Chapter1/chapter1.tex",
-					"settings":
-					{
-						"buffer_size": 2193,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								744,
-								641
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "ReportPlan.txt",
-					"settings":
-					{
-						"buffer_size": 571,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								24,
-								24
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Chapter2/chapter2.tex",
-					"settings":
-					{
-						"buffer_size": 1182,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1182,
-								1182
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1908.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

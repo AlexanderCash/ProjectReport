@@ -5,6 +5,7 @@
 \chapter{Introduction}  %Title of the First Chapter
 \label{intro}
 
+% **************************** Define Graphics Path **************************
 \ifpdf
     \graphicspath{{Chapter1/Figs/Raster/}{Chapter1/Figs/PDF/}{Chapter1/Figs/}}
 \else
@@ -13,17 +14,30 @@
 
 
 %******************************************************************************************************
-%********************************** %First Section  ***************************************************
 %******************************************************************************************************
-\section{An Introduction to Unmanned Aerial Vehicles} %Section - 1.1 
+\section{An Introduction to Unmanned Aerial Vehicles} 
 \label{intro:UAVs}
 
 Unmanned Aerial Vehicles (UAVs) 
 
 %******************************************************************************************************
-%********************************** %Second Section  **************************************************
 %******************************************************************************************************
-\section{ArduPilot and ArduPlane} %Section - 1.2
+\section{UAVs for Aerial Photography} 
+\label{intro:photography}
+
+
+
+\begin{figure}[htbp!] 
+\centering    
+\includegraphics[width=1.0\textwidth]{SimpleLawnmower}
+\caption[Simple Lawnmower]{This is the general form of a lawnmower pattern aerial imaging run} %TODO
+\label{fig:simplelawnmower}
+\end{figure}
+
+
+%******************************************************************************************************
+%******************************************************************************************************
+\section{ArduPilot and ArduPlane} 
 \label{intro:arduplane}
 
 ArduPilot is an open-source suite of autopilot products aimed at hobbyists and professionals alike 
@@ -34,15 +48,9 @@ ArduPilot is an open-source suite of autopilot products aimed at hobbyists and p
 JSBSim is the simulator packaged with ArduPlane for testing purposes
 
 %******************************************************************************************************
-%********************************** % Third Section  **************************************************
 %******************************************************************************************************
-\section{Aerial Photography}  %Section - 1.3 
-\label{intro:photography}
+\section{Autopilot Hardware} 
+\label{intro:hardware}
 
-\begin{figure}[htbp!] 
-\centering    
-\includegraphics[width=1.0\textwidth]{SimpleLawnmower}
-\caption[Simple Lawnmower]{This is the general form of a lawnmower pattern aerial imaging run} %TODO
-\label{fig:simplelawnmower}
-\end{figure}
+
 
