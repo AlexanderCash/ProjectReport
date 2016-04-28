@@ -2,3 +2,10 @@ History of Aerial Photography date
 
 http://professionalaerialphotographers.com/content.aspx?page_id=22&club_id=808138&module_id=158950
 
+Ardupilot history
+http://ardupilot.org/plane/docs/common-history-of-ardupilot.html
+
+dronecode
+https://www.dronecode.org/about
+
+
