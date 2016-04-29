@@ -83,7 +83,7 @@ Throughout this work we shall be referring to a flightpath as a ``mission'', whi
 
 
 %TODO finalise
-%TODO define mission planning in this section
+%TODO define mission planning process in this section
 
 %******************************************************************************************************
 %******************************************************************************************************
@@ -104,17 +104,39 @@ ArduPlane is designed so that when paired with a suitable controller board (see 
 To do this, the ArduPlane software is compiled to create the firmware, which is then programmed onto the controller board alongside the mission plan. Once the controller board is connected to all of the necessary control outputs and sensor inputs, the UAV must be configured and tuned for flight, and then is ready for take-off. The configuration and tuning are of course capabilities provided by ArduPlane, however are not relevant for discussion within the context of this project. ArduPlane handles both automatic take-off and landings, as well as providing the option to change between flight modes. The flight modes available include fly-by-wire modes, an acrobatics mode, a training mode, and an automatic flight mode. For this project we are only concerned with the automatic flight mode, and shall not be dealing with any other mode. 
 
 The ArduPlane codebase uses a very large collection of libraries, of which the majority are also used by the ArduCopter and ArduRover products. This, combined with the fact that ArduPlane is designed to work with any fixed-wind UAV means that a lot of the code is very generic and reusable. The codebase for the whole ArduPilot project currently consists of roughly 11,000 files in total, and the specific ArduPlane code (excluding any shared libraries or resources) is made up of only 37 files. The sheer number of shared files, generic coding style, and open-source nature of this project combine to mean that in many respects the code commenting and documentation is very lacking and unspecific. That being said, there are a number of instructional guides and references that can be found on the ArduPilot website for anyone looking to modify the code or get involved with contribution. In addition to this, there are a number of forums that can provide many answers to common problems. %TODO ref diydrones, discuss.ardupilot.org, and apm forum	
-In addition to there being three main autopilot platforms, there are also a large number of different released versions and code branches. These are often platform specific and hardware specific.
+In addition to there being three main autopilot platforms, there are also a large number of differing released versions and code branches, which are often platform specific or hardware specific.
+
+%TODO finish?
 
 
 \subsection{JSBSim}
 \label{intro:jsbsim}
 
-JSBSim is the simulator packaged with ArduPlane for testing purposes
+As the ArduPilot project is open source, there are a number of associated open-source utilities available to download for testing purposes. One of the main tools used in ArduPlane development is called JSBSim, an open-source Flight Dynamics Model (FDM) which can be used as part of a flight simulator. %TODO ref jsbsim.sourceforge.net
+
+We are able to use this FDM to provide a Software In The Loop (SITL) simulator, which does not require any additional hardware besides a computer. This enables us to modify the ArduPilot code and test it with a range of flight missions without the need to purchase a control board or have a suitable UAV available. 
+
+The ArduPlane project includes a utility to simulate and view a fixed-wing UAV in flight, starting at any given GPS location. Fig. %TODO SCREENSHOT SIMULATAH
+shows one example of this, where we have the command window, an output console, and a map view. The map view shows us the planned mission and the actual path the UAV will follow in the given scenario, the console window displays output and communication messages from the UAV, and the command window allows us to control the simulator.
+
+This simulator forms the bulk of the testing for this project, and is used to map flight paths and record performance. Each simulated UAV flight generates a log in the form of a \textit{.BIN} file. We can then use the MAVExplorer utility and our ground control software to analyse the log files. 
+
+\subsubsection{MAVExplorer}
+\label{intro:mavexplorer}
+MAVExplorer is a log analysis tool, provided in the form of a python script suitably named \textit{MAVExplorer.py}. This allows us to generate a map of the area over which the UAV has flown with white lines displaying the planned mission, and a green line plotting the actual route the UAV flew. An example of this can be seen in Fig. %TODO MAVExplorer example, choose random one
+
 
 \subsection{MissionPlanner and APM Planner}
 \label{intro:planner}
 
+As previously mentioned, for autonomous UAV flight we need to plan out a mission before flight. There are a number of software products capable of this, however the main two used by the ArduPilot project are called APM Planner 2 and MissionPlanner. Both of these products are open source however APM Planner 2 runs on Linux, Windows, and Mac OSX, whilst MissionPlanner is a Windows only application. Both products enable mission planning however the MissionPlanner product is more feature rich, reliable, and quick to use. 
+
+The missions plans generated using either of these programs are of the same format; a text file with a number of commands, parameters, and often GPS locations. This is very useful as it allows manual editing of these text files where necessary, and allows us to easily work out how the autopilot itself reads its commands from the provided mission plan. 
+
+There are a wide range of commands that can be included in a mission including take off commands, land commands, and navigation commands. For this project the most relevant navigation commands are those conducted using waypoints. We are able to instruct he UAV to loiter around a point at a specified radius for a number of rotations (complete circles around a point), a duration, or indefinitely. The other form of navigation command is simply an instruction to travel to a point in space, with the option to define how close to that point we need the UAV to travel. 
+
+Fig. %TODO screenshot missionplanner
+shows a typical mission plan in MissionPlanner, where we are commanding a simple lawnmower pattern imaging run.
 
 %******************************************************************************************************
 %******************************************************************************************************
