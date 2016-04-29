@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.28)  28 APR 2016 19:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.28)  29 APR 2016 00:44
 entering extended mode
 **thesis.tex
 
@@ -1518,7 +1518,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 113.
 \PHD@crest=\box53
 
-<Figs/FrontMatter/UniversityLogo.png, id=122, 1654.68187pt x 636.12656pt>
+<Figs/FrontMatter/UniversityLogo.png, id=126, 1654.68187pt x 636.12656pt>
 File: Figs/FrontMatter/UniversityLogo.png Graphic file (type png)
 
 <use Figs/FrontMatter/UniversityLogo.png>
@@ -1618,42 +1618,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<Chapter1/Figs/Raster/SimpleLawnmower.png, id=230, 586.19pt x 538.01pt>
+<Chapter1/Figs/Raster/SimpleLawnmower.png, id=235, 586.19pt x 538.01pt>
 File: Chapter1/Figs/Raster/SimpleLawnmower.png Graphic file (type png)
 
 <use Chapter1/Figs/Raster/SimpleLawnmower.png>
 Package pdftex.def Info: Chapter1/Figs/Raster/SimpleLawnmower.png used on input
  line 43.
-(pdftex.def)             Requested size: 316.89256pt x 290.84123pt.
+(pdftex.def)             Requested size: 190.13747pt x 174.50638pt.
 
-<Chapter1/Figs/Raster/SimpleSpiral.png, id=231, 562.1pt x 531.586pt>
+<Chapter1/Figs/Raster/SimpleSpiral.png, id=236, 562.1pt x 531.586pt>
 File: Chapter1/Figs/Raster/SimpleSpiral.png Graphic file (type png)
 
 <use Chapter1/Figs/Raster/SimpleSpiral.png>
 Package pdftex.def Info: Chapter1/Figs/Raster/SimpleSpiral.png used on input li
 ne 50.
-(pdftex.def)             Requested size: 316.89256pt x 299.68962pt.
+(pdftex.def)             Requested size: 190.13747pt x 179.81215pt.
 
-<Chapter1/Figs/Raster/ImagingLawnmower.png, id=235, 562.1pt x 529.177pt>
+<Chapter1/Figs/Raster/ImagingLawnmower.png, id=240, 562.1pt x 529.177pt>
 File: Chapter1/Figs/Raster/ImagingLawnmower.png Graphic file (type png)
 
 <use Chapter1/Figs/Raster/ImagingLawnmower.png>
 Package pdftex.def Info: Chapter1/Figs/Raster/ImagingLawnmower.png used on inpu
 t line 61.
-(pdftex.def)             Requested size: 316.89256pt x 298.33151pt.
- [2]
+(pdftex.def)             Requested size: 190.13747pt x 178.9973pt.
+ [2] [3 <//userfs/ac1054/w2k/4TH YEAR/Final Project/AFinal Report/ProjectReport
+/Chapter1/Figs/Raster/SimpleLawnmower.png> <//userfs/ac1054/w2k/4TH YEAR/Final 
+Project/AFinal Report/ProjectReport/Chapter1/Figs/Raster/SimpleSpiral.png> <//u
+serfs/ac1054/w2k/4TH YEAR/Final Project/AFinal Report/ProjectReport/Chapter1/Fi
+gs/Raster/ImagingLawnmower.png>]
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 70.
-
 (C:\TEX\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [3 <//userfs/ac1054/w2k/4TH YEAR/Final Project/AFinal Report/ProjectReport/Ch
-apter1/Figs/Raster/SimpleLawnmower.png>] [4 <//userfs/ac1054/w2k/4TH YEAR/Final
- Project/AFinal Report/ProjectReport/Chapter1/Figs/Raster/SimpleSpiral.png>] [5
- <//userfs/ac1054/w2k/4TH YEAR/Final Project/AFinal Report/ProjectReport/Chapte
-r1/Figs/Raster/ImagingLawnmower.png>]
+) [4]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 90.
-) [6]
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 100.
+ [5]) [6]
 ("\\userfs\ac1054\w2k\4TH YEAR\Final Project\AFinal Report\ProjectReport\Chapte
 r2/chapter2.tex"
 Chapter 2.
@@ -1766,22 +1765,26 @@ ix2/appendix2.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A547F6564B680A636E374546568B1100;4884.
+(rerunfilecheck)             Checksum: 5ED4C5F48453B58357ED8EA4C69671AF;4948.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 23572 strings out of 493921
- 410045 string characters out of 3152890
- 474638 words of memory out of 3000000
- 26149 multiletter control sequences out of 15000+200000
- 63597 words of font info for 179 fonts, out of 3000000 for 9000
+ 23602 strings out of 493921
+ 410330 string characters out of 3152890
+ 475667 words of memory out of 3000000
+ 26151 multiletter control sequences out of 15000+200000
+ 64767 words of font info for 197 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 49i,11n,45p,1163b,817s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,11n,45p,1163b,808s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/TEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/TEX/MiKTeX/fonts/type1/urw
 /times/utmb8a.pfb><C:/TEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/TEX/MiKTe
 X/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (39 pages, 156959 bytes).
+Output written on thesis.pdf (39 pages, 161111 bytes).
 PDF statistics:
- 385 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
- 41733 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 393 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 41741 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -40,15 +40,15 @@ This project will primarily focus on the mapping of land beneath the UAV, and as
 
 \begin{figure}[htbp!] 
 \centering    
-\includegraphics[width=0.5\textheight]{SimpleLawnmower}
-\caption[Simple Lawnmower Pattern]{The general form of a lawnmower pattern aerial imaging run}
+\includegraphics[width=0.3\textheight]{SimpleLawnmower}
+\caption[Simple Lawnmower Pattern]{The general form of a lawnmower pattern aerial imaging flightpath}
 \label{fig:simplelawnmower}
 \end{figure}
 
 \begin{figure}[htbp!] 
 \centering    
-\includegraphics[width=0.5\textheight]{SimpleSpiral}
-\caption[Simple Spiral Pattern]{The general form of a spiral pattern aerial imaging run}
+\includegraphics[width=0.3\textheight]{SimpleSpiral}
+\caption[Simple Spiral Pattern]{The general form of a spiral pattern aerial imaging flightpath}
 \label{fig:simplespiral}
 \end{figure}
 
@@ -58,12 +58,12 @@ As the lawnmower pattern does not require the horizontal sections of the path in
 
 \begin{figure}[htbp!] 
 \centering    
-\includegraphics[width=0.5\textheight]{ImagingLawnmower}
+\includegraphics[width=0.3\textheight]{ImagingLawnmower}
 \caption[Imaging Lawnmower Pattern]{A version of the lawnmower pattern, using only imaging paths}
 \label{fig:imaginglawnmower}
 \end{figure}
 
-As the imaging paths shown in Fig. \ref{fig:imaginglawnmower} are separate of one another, it is possible to complete each imaging path in any order and in either direction. This does however require the user to plan accordingly and to record location data accurately so as to be able to stitch together the resulting photographs correctly. One of the resulting patterns that we can create from this is called the ``Zamboni pattern'', named after the route a Zamboni machine takes around an ice rink to smooth out the ice. %TODO remove zamboni nonsense?
+As the imaging paths shown in Fig. \ref{fig:imaginglawnmower} are separate of one another, it is possible to complete each imaging path in any order and in either direction. This does however require the user to plan accordingly and to record location data accurately so as to be able to stitch together the resulting photographs correctly. One of the resulting patterns that we can create from this is called the ``Zamboni pattern'', named after the route a Zamboni machine takes around an ice rink to smooth out the ice. A Zamboni pattern describes a path whereby we d onot traverse up and then down adjacent imaging paths, but instead perform a series of overlapping paths by travelling up one imaging path, and then down a path a few rows over. This is necessary for a Zamboni due to its large minimum turning radius, and would be equivalent to a UAV with a large turning radius being required to traverse a number of very close imaging paths. 
 
 The required flightpath will have to be calculated based on a number of factors including:
 \begin{itemize}
@@ -78,14 +78,34 @@ The required flightpath will have to be calculated based on a number of factors 
 
 These factors shall be considered and discussed later in this report where relevant, and have been used to inform decisions throughout the work of this project.
 
+Throughout this work we shall be referring to a flightpath as a ``mission'', which describes a full, pre-planned flight path from take-off to landing. To define these missions we require particular software products that shall be discussed in Section \ref{intro:planner}.
+
+
+
+%TODO finalise
+%TODO define mission planning in this section
+
 %******************************************************************************************************
 %******************************************************************************************************
-\section{ArduPilot and ArduPlane} 
+\section{ArduPilot} 
+\label{intro:ardupilot}
+
+ArduPilot, also known as ArduPilotMega (APM), is an open-source suite of autopilot products aimed at hobbyists and professionals alike. ArduPilot includes the ArduPlane, ArduCopter, and ArduRover autopilots, each aimed at aeroplane style UAVS, helicopter and multirotor UAVS, and ground based rover platforms respectively. As previously mentioned, this project is aimed at fixed-wing aeroplane UAVs, and as such this report is looking at the ArduPlane product. 
+
+ArduPilot has been around since late 2009 and was originally designed to operate using the Arduino development ecosystem. Since then, the codebases have evolved in both size and functionality, in part due to hardware improvements which will be discussed in \ref{intro:planner}. This has lead to both the software and hardware components of these ArduPilot autopilot solutions moving away from Arduino almost entirely.
+
+ArduPilot grew out of an organisation called DIYDrones, %TODO ref DIYDrones.com
+which was set up as an online community for enthusiasts to discuss and create solutions for UAV use; this community still exists and operates as one of the many hubs for discussion regarding UAVs, autopilots, and route planning. In 2014, the group of people maintaining the ArduPilot project teamed up with The Linux Foundation to create a non-profit organisation called the Dronecode Project. The Dronecode Project is an effort to collaborate a number of open-source hardware and software products under one structure, which includes the ArduPilot project. In February 2016, it was announced that the core team behind ArduPilot would be creating their own non-profit organisation to best suit the needs of the users of the ArduPilot products, however at the time of writing this is still a work in progress. %TODO ref dronecode, non-profit announcements, linux foundation
+
+\subsection{ArduPlane}
 \label{intro:arduplane}
 
-ArduPilot is an open-source suite of autopilot products aimed at hobbyists and professionals alike. ArduPilot includes the ArduPlane, ArduCopter, and ArduRover autopilots, each aimed at aeroplane style UAVS, helicopter and multirotor UAVS, and ground based rover UAVs respectively. As previously mentioned, this project is aimed at fixed-wing aeroplane UAVs, and as such this report is looking at the ArduPlane product. 
+ArduPlane is designed so that when paired with a suitable controller board (see Section \ref{intro:hardware}), it enables autonomous flight on almost any fixed-wing UAV. %TODO ref http://ardupilot.org/plane/index.html 
+To do this, the ArduPlane software is compiled to create the firmware, which is then programmed onto the controller board alongside the mission plan. Once the controller board is connected to all of the necessary control outputs and sensor inputs, the UAV must be configured and tuned for flight, and then is ready for take-off. The configuration and tuning are of course capabilities provided by ArduPlane, however are not relevant for discussion within the context of this project. ArduPlane handles both automatic take-off and landings, as well as providing the option to change between flight modes. The flight modes available include fly-by-wire modes, an acrobatics mode, a training mode, and an automatic flight mode. For this project we are only concerned with the automatic flight mode, and shall not be dealing with any other mode. 
 
-ArduPilot has been around since late 2009 and was originally designed to operate using the Arduino development ecosystem. Since then it has evolved in both size and functionality, in part due to hardware improvements which will be discussed in \ref{intro:planner}. 
+The ArduPlane codebase uses a very large collection of libraries, of which the majority are also used by the ArduCopter and ArduRover products. This, combined with the fact that ArduPlane is designed to work with any fixed-wind UAV means that a lot of the code is very generic and reusable. The codebase for the whole ArduPilot project currently consists of roughly 11,000 files in total, and the specific ArduPlane code (excluding any shared libraries or resources) is made up of only 37 files. The sheer number of shared files, generic coding style, and open-source nature of this project combine to mean that in many respects the code commenting and documentation is very lacking and unspecific. That being said, there are a number of instructional guides and references that can be found on the ArduPilot website for anyone looking to modify the code or get involved with contribution. In addition to this, there are a number of forums that can provide many answers to common problems. %TODO ref diydrones, discuss.ardupilot.org, and apm forum	
+In addition to there being three main autopilot platforms, there are also a large number of different released versions and code branches. These are often platform specific and hardware specific.
+
 
 \subsection{JSBSim}
 \label{intro:jsbsim}
