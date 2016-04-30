@@ -116,8 +116,14 @@ As the ArduPilot project is open source, there are a number of associated open-s
 
 We are able to use this FDM to provide a Software In The Loop (SITL) simulator, which does not require any additional hardware besides a computer. This enables us to modify the ArduPilot code and test it with a range of flight missions without the need to purchase a control board or have a suitable UAV available. 
 
-The ArduPlane project includes a utility to simulate and view a fixed-wing UAV in flight, starting at any given GPS location. Fig. %TODO SCREENSHOT SIMULATAH
-shows one example of this, where we have the command window, an output console, and a map view. The map view shows us the planned mission and the actual path the UAV will follow in the given scenario, the console window displays output and communication messages from the UAV, and the command window allows us to control the simulator.
+The ArduPlane project includes a utility to simulate and view a fixed-wing UAV in flight, starting at any given GPS location. Fig. \ref{fig:jsbsim} shows one example of this, where we have the command window, an output console, and a map view. The map view shows us the planned mission and the actual path the UAV will follow in the given scenario, the console window displays output and communication messages from the UAV, and the command window allows us to control the simulator.
+
+\begin{figure}[htbp!] 
+\centering    
+\includegraphics[width=\textwidth]{JSBSim}
+\caption[JSBSim Simulator]{A view of the JSBSim based flight simulator, showing a command window, output console, and simulator map view}
+\label{fig:jsbsim}
+\end{figure}
 
 This simulator forms the bulk of the testing for this project, and is used to map flight paths and record performance. Each simulated UAV flight generates a log in the form of a \textit{.BIN} file. We can then use the MAVExplorer utility and our ground control software to analyse the log files. 
 
@@ -125,6 +131,12 @@ This simulator forms the bulk of the testing for this project, and is used to ma
 \label{intro:mavexplorer}
 MAVExplorer is a log analysis tool, provided in the form of a python script suitably named \textit{MAVExplorer.py}. This allows us to generate a map of the area over which the UAV has flown with white lines displaying the planned mission, and a green line plotting the actual route the UAV flew. An example of this can be seen in Fig. %TODO MAVExplorer example, choose random one
 
+\begin{figure}[htbp!] 
+\centering    
+\includegraphics[width=\textwidth]{MAVExplorer}
+\caption[MAVExplorer Example]{The mapping view provided by MAVExplorer utilising log files from flight simulations}
+\label{fig:missionplanner}
+\end{figure}
 
 \subsection{MissionPlanner and APM Planner}
 \label{intro:planner}
@@ -135,13 +147,21 @@ The missions plans generated using either of these programs are of the same form
 
 There are a wide range of commands that can be included in a mission including take off commands, land commands, and navigation commands. For this project the most relevant navigation commands are those conducted using waypoints. We are able to instruct he UAV to loiter around a point at a specified radius for a number of rotations (complete circles around a point), a duration, or indefinitely. The other form of navigation command is simply an instruction to travel to a point in space, with the option to define how close to that point we need the UAV to travel. 
 
-Fig. %TODO screenshot missionplanner
-shows a typical mission plan in MissionPlanner, where we are commanding a simple lawnmower pattern imaging run.
+Fig. \ref{fig:missionplanner} shows a typical mission plan in MissionPlanner, where we are commanding a simple lawnmower pattern imaging run. 
+
+\begin{figure}[htbp!] 
+\centering    
+\includegraphics[width=\textwidth]{MissionPlanner}
+\caption[MissionPlanner]{The mission planning view of the Windows based MissionPlanner software}
+\label{fig:missionplanner}
+\end{figure}
 
 %******************************************************************************************************
 %******************************************************************************************************
 \section{Autopilot Hardware} 
 \label{intro:hardware}
+
+As also mentioned, one of the key components for autonomous UAV flight using ArduPlane is the controller board which must be mounted on the UAV itself. There are a number of currently available boards that ArduPilot can run on, and over the years there have been many versions of these. 
 
 
 

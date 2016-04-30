@@ -8,24 +8,25 @@
 \contentsline {section}{\numberline {1.3}ArduPilot}{4}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}ArduPlane}{5}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}JSBSim}{6}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}MissionPlanner and APM Planner}{6}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Autopilot Hardware}{6}{section.1.4}
-\contentsline {chapter}{\numberline {2}Literature Review}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}Dubin's Paths}{7}{section.2.1}
-\contentsline {section}{\numberline {2.2}Path Following in Wind}{7}{section.2.2}
-\contentsline {chapter}{\numberline {3}Task One: Path Planning}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}The Problem}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Solution}{9}{section.3.2}
-\contentsline {chapter}{\numberline {4}Task Two: Path Following}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}The Problem}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Solution}{11}{section.4.2}
-\contentsline {chapter}{\numberline {5}Future Work}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}Proposal 1: Incorporation into MissionPlanner}{13}{section.5.1}
-\contentsline {chapter}{\numberline {6}Project Planning and Management}{15}{chapter.6}
-\contentsline {section}{\numberline {6.1}Agile Planning}{15}{section.6.1}
-\contentsline {chapter}{\numberline {7}Summary and Conclusions}{17}{chapter.7}
-\contentsline {section}{\numberline {7.1}Conclusions}{17}{section.7.1}
-\contentsline {chapter}{References}{19}{chapter*.9}
-\contentsline {chapter}{Appendix \numberline {A}Testing Results}{21}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}MATLAB Outputs}{23}{Appendix.a.B}
-\contentsline {chapter}{Index}{25}{section*.10}
+\contentsline {subsubsection}{MAVExplorer}{6}{section*.10}
+\contentsline {subsection}{\numberline {1.3.3}MissionPlanner and APM Planner}{7}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Autopilot Hardware}{9}{section.1.4}
+\contentsline {chapter}{\numberline {2}Literature Review}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}Dubin's Paths}{11}{section.2.1}
+\contentsline {section}{\numberline {2.2}Path Following in Wind}{11}{section.2.2}
+\contentsline {chapter}{\numberline {3}Task One: Path Planning}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Problem}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Solution}{13}{section.3.2}
+\contentsline {chapter}{\numberline {4}Task Two: Path Following}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Problem}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}Solution}{15}{section.4.2}
+\contentsline {chapter}{\numberline {5}Future Work}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Proposal 1: Incorporation into MissionPlanner}{17}{section.5.1}
+\contentsline {chapter}{\numberline {6}Project Planning and Management}{19}{chapter.6}
+\contentsline {section}{\numberline {6.1}Agile Planning}{19}{section.6.1}
+\contentsline {chapter}{\numberline {7}Summary and Conclusions}{21}{chapter.7}
+\contentsline {section}{\numberline {7.1}Conclusions}{21}{section.7.1}
+\contentsline {chapter}{References}{23}{chapter*.13}
+\contentsline {chapter}{Appendix \numberline {A}Testing Results}{25}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {B}MATLAB Outputs}{27}{Appendix.a.B}
+\contentsline {chapter}{Index}{29}{section*.14}
